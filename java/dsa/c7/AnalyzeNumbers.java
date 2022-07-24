@@ -27,7 +27,7 @@ public class AnalyzeNumbers {
 
     average = sum / n;
 
-    count = 0;
+    count = 0; // The number of elements above average
     for (i = 0; i < n; i++) {
       if (numbers[i] > average) {
         count++;
